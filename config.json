@@ -1,0 +1,15 @@
+{
+  "project_id": "your-gcp-project-id",
+  "location": "us-central1",
+  "dataset_id": "your-dataset-id",
+  "model_id": "your-model-id",
+  "data_file_path": "path/to/your/dukascopy-tick-data.csv",
+  "output_directory": "path/to/your/output-directory",
+  "prediction_horizon": 12,
+  "model_hyperparameters": {
+    "learning_rate": 0.01,
+    "num_epochs": 100,
+    "batch_size": 32,
+    "hidden_units": [64, 64]
+  }
+}
